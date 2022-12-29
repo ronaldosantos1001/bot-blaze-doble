@@ -1,0 +1,45 @@
+{
+  "name": "bot-blaze-telegram",
+  "version": "1.0.1",
+  "description": "esse bot envia sinais, do gamer double blaze, direto para chats do telegram.",
+  "author": "Elizandro Dantas <dantaspm@icloud.com>",
+  "main": "src/index.mjs",
+  "module": "src/index.mjs",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elizandrodantas/bot-blaze-telegram.git"
+  },
+  "keywords": [
+    "bot",
+    "telegram",
+    "telegram-bot",
+    "blaze",
+    "blazebot",
+    "bot-blaze",
+    "blazedouble",
+    "blaze-double"
+  ],
+  "bugs": {
+    "url": "https://github.com/elizandrodantas/bot-blaze-telegram/issues"
+  },
+  "homepage": "https://github.com/elizandrodantas/bot-blaze-telegram#readme",
+  "scripts": {
+    "dev": "node __test__/bot.test.mjs",
+    "example:dotenv": "node example/example-with-dotenv.mjs",
+    "example": "node example/example-without-dotenv.mjs"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.1",
+    "ora": "^6.1.2",
+    "readline-sync": "^1.4.10",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "telegraf": "^4.8.6",
+    "ws": "^8.8.1",
+    "dotenv": "^16.0.1"
+  }
+}
